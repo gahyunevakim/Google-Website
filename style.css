@@ -1,0 +1,144 @@
+body {
+  display: contents;
+}
+
+/* navbar */
+
+.navbar {
+  float: right;
+  margin: 15px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/* main */
+
+.logo {
+  width: 272px;
+}
+
+.middle-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.input-area {
+  margin-top: 10px;
+}
+
+.input-box {
+  width: 538px;
+  height: 44px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.input-box:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.left-icon {
+  position: relative;
+  left: 40px;
+  color: #9aa0a6;
+}
+
+.right-icon {
+  position: relative;
+  right: 40px;
+  color: #9aa0a6;
+}
+
+.button-area {
+  padding: 18px;
+}
+
+.button-style {
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.button-style:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.main-item {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
+
+.main-item:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.first-footer {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.second-footer {
+  padding: 15px 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  margin-bottom: 20px;
+}
+
+.left-span {
+  float: left;
+}
+
+.left-span-item {
+  text-decoration: none;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.left-span-item:hover {
+  text-decoration: underline;
+}
+
+.right-span {
+  float: right;
+}
+
+.right-span-item {
+  text-decoration: none;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.right-span-item:hover {
+  text-decoration: underline;
+}
